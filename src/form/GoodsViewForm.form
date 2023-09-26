@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="form.GoodsViewForm">
+  <grid id="27dc6" binding="panel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="1241" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="4bda4" class="javax.swing.JLabel" binding="title1">
+        <constraints/>
+        <properties>
+          <text value="货号/条形码："/>
+        </properties>
+      </component>
+      <component id="c66d3" class="javax.swing.JTextField" binding="Barcode">
+        <constraints/>
+        <properties>
+          <columns value="13"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a98bb" class="javax.swing.JLabel" binding="title2">
+        <constraints/>
+        <properties>
+          <text value="      商品名称："/>
+        </properties>
+      </component>
+      <component id="c98b6" class="javax.swing.JTextField" binding="goodsname">
+        <constraints/>
+        <properties>
+          <columns value="13"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c4090" class="javax.swing.JLabel" binding="title3">
+        <constraints/>
+        <properties>
+          <text value="      入库时间："/>
+        </properties>
+      </component>
+      <component id="655a" class="javax.swing.JTextField" binding="time1">
+        <constraints/>
+        <properties>
+          <columns value="13"/>
+        </properties>
+      </component>
+      <component id="1f4f4" class="javax.swing.JLabel" binding="title4">
+        <constraints/>
+        <properties>
+          <text value="  至  "/>
+        </properties>
+      </component>
+      <component id="819a1" class="javax.swing.JTextField" binding="time2">
+        <constraints/>
+        <properties>
+          <columns value="13"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1cd5e" class="javax.swing.JLabel" binding="title5">
+        <constraints/>
+        <properties>
+          <text value="一级分类："/>
+        </properties>
+      </component>
+      <component id="dfc1a" class="javax.swing.JComboBox" binding="classify1">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="be8ab" class="javax.swing.JLabel" binding="title6">
+        <constraints/>
+        <properties>
+          <text value="二级分类："/>
+        </properties>
+      </component>
+      <component id="4b1bc" class="javax.swing.JComboBox" binding="classify2">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="6b08d" class="javax.swing.JLabel" binding="title7">
+        <constraints/>
+        <properties>
+          <text value="当前共0条商品信息！"/>
+        </properties>
+      </component>
+      <component id="e977d" class="javax.swing.JButton" binding="search">
+        <constraints/>
+        <properties>
+          <text value="查询"/>
+        </properties>
+      </component>
+      <scrollpane id="3cb6b">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b81ab" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <preferredScrollableViewportSize width="700" height="360"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
