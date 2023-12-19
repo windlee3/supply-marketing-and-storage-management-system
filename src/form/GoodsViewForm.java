@@ -33,7 +33,7 @@ public class GoodsViewForm extends JDialog {
     private DefaultTableModel tableModel;
     public GoodsViewForm(MainForm frame) {
         super(frame);
-        setTitle("NIKE专卖店销售系统--商品浏览");
+        setTitle("NLKE专卖店销售系统--商品浏览");
         setSize(800, 500);
         setContentPane(panel);
         setModalityType(ModalityType.DOCUMENT_MODAL);

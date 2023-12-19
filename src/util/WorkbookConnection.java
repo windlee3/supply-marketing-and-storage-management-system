@@ -11,7 +11,7 @@ public class WorkbookConnection {
     private static Workbook workbook;
     static {
         try {
-            FileInputStream fis = new FileInputStream("E:\\library\\data.xls");
+            FileInputStream fis = new FileInputStream("data.xls");
             workbook = new HSSFWorkbook(fis);
         } catch (IOException e) {
             e.printStackTrace();
@@ -24,7 +24,7 @@ public class WorkbookConnection {
     }
 
     public static void saveWorkbook() {
-        String filePath = "E:\\library\\data.xls";
+        String filePath = "data.xls";
         try (FileOutputStream fos = new FileOutputStream(filePath)) {
             workbook.write(fos);
         } catch (IOException e) {

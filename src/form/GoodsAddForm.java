@@ -35,7 +35,7 @@ public class GoodsAddForm extends JDialog {
 
     public GoodsAddForm(MainForm frame) {
         super(frame);
-        setTitle("NIKE专卖店销售系统--商品入库");
+        setTitle("NLKE专卖店销售系统--商品入库");
         setSize(600, 300);
         setContentPane(panel);
         setModalityType(ModalityType.DOCUMENT_MODAL);

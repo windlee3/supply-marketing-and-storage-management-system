@@ -44,7 +44,7 @@ public class MainForm extends JDialog {
         updateTime2();
         run();
         setUsername(username);
-        setTitle("NIKE专卖店销售系统--首页");
+        setTitle("NLKE专卖店销售系统--首页");
         setSize(520, 400);
         setLocationRelativeTo(null);
         setModalityType(ModalityType.DOCUMENT_MODAL);
@@ -86,7 +86,7 @@ public class MainForm extends JDialog {
             }
         });
         // 加载并显示图片
-        ImageIcon imageIcon = new ImageIcon("E:\\library\\th.jpg");
+        ImageIcon imageIcon = new ImageIcon("OIP.jpg");
         Image image =   imageIcon.getImage().getScaledInstance(500, 300, Image.SCALE_DEFAULT);
         ImageIcon scaledImageIcon = new ImageIcon(image);
         imageLable.setIcon(scaledImageIcon);

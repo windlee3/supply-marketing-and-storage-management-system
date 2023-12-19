@@ -17,7 +17,7 @@ public class LoginForm extends JFrame {
 
 
     public LoginForm() {
-        setTitle("NIKE专卖店销售系统--登录");
+        setTitle("NLKE专卖店销售系统--登录");
         setContentPane(panel);
         setSize(300, 200);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

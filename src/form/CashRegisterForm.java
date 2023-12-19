@@ -28,7 +28,7 @@ public class CashRegisterForm extends JDialog {
 
     public CashRegisterForm(MainForm frame) {
         super(frame);
-        setTitle("NIKE专卖店销售系统--收银台");
+        setTitle("NLKE专卖店销售系统--收银台");
         setSize(600, 400);
         setContentPane(panel1);
         setModalityType(ModalityType.DOCUMENT_MODAL);
