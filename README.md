@@ -11,6 +11,8 @@
 -   ![image](https://github.com/windlee3/supply-marketing-and-storage-management-system/assets/116966376/9ccfbc0a-206f-4dc4-bc90-fe7cf7507347)
 -  主界面
 -   ![image](https://github.com/windlee3/supply-marketing-and-storage-management-system/assets/116966376/fc990233-4382-4ca9-ba76-414e4c64e547)
-  
+
+
+- 运行环境为jdk20 
 - 运行该程序前需要在idea的Project Structure中的Mouble添加外部库lib
 - 然后进入src/form/LoginForm.java文件中点击运行
